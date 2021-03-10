@@ -63,7 +63,7 @@ let saveButton = document.querySelectorAll(".saveBtn");
       $("#16 .form-control").val(localStorage.getItem("16"));
       $("#17 .form-control").val(localStorage.getItem("17"));
 
-      //This function is responsible for 
+      //This function is responsible for adding the colors to the event section for past, present, and future events.
       var currentHour = moment().hour();
       $( ".row" ).each(function() {
         var hour = parseInt($(this).attr("id"));
