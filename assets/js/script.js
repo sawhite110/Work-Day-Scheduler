@@ -82,27 +82,6 @@ let saveButton = document.querySelectorAll(".saveBtn");
             eventEl.removeClass("present");
         }
       })
-  }); 
-  
-
-  
-// $(document).ready(function () {
-//     $(".saveBtn").click(function () {
-//       let hour = $(this).attr(".hour");
-//       console.log(hour);
-//       let eventEl = $(this).attr(".eventsText1").val();
-      
-//       const savedTime = JSON.stringify({  hour, eventEl })
-
-//       localStorage.setItem('newSavedTime', savedTime); 
-//     });
-// });
-
-//Create a loop to pick up the information from the text.
-// for (let i = 0; i < eventsText.length; i++) {
-    
-// }
-
-//Setup jquery localStorage
+  });
 
   
